@@ -74,3 +74,60 @@ body {
     height: 100%;
     transform: translate(calc(100% * 8 / 153), 0);
 }
+
+/**
+ * Bed area
+ */
+ .bed-svg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+.cat {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 112px;
+    width: calc(100vh * 112 / 476);
+    height: calc(100% * 159 / 213);
+    transform: translate(calc(-100% * 64 / 112), calc(-100% * 112 / 164));
+}
+.cat-svg {
+    position: absolute;
+    height: 100%;
+}
+.cat-eye {
+    animation: cat-eye-color 6s step-end infinite;
+}
+.cat-paw-svg {
+    position: absolute;
+    top: calc(100% * 72 / 159);
+    left: calc(100% * 96 / 112);
+    height: calc(100% * 47 / 159);
+    transform-origin: 0 0;
+    z-index: 1;
+    animation: 3s cat-paw 2.75s linear infinite;
+}
+.lamp-switch-1-svg {
+    position: absolute;
+    top: calc(100% * 57 / 159);
+    left: calc(100% * 163 / 112);
+    height: calc(100% * 49 / 159);
+    animation: 3s lamp-switch-1 2.75s linear infinite;
+}
+.lamp-switch-2-svg {
+    position: absolute;
+    top: calc(100% * 106 / 159);
+    left: calc(100% * 163 / 112);
+    width: calc(100% / 112);
+    height: calc(100% * 18 / 159);
+    animation: 3s lamp-switch-2 2.75s linear infinite;
+}
+.blanket-svg {
+    position: absolute;
+    right: 0;
+    transform: translate(calc(-100% * 2 / 417), calc(100% * 26 / 144));
+    height: calc(100% * 144 / 213);
+    z-index: 1;
+}
