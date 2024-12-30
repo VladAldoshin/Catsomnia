@@ -173,7 +173,7 @@ body {
  }
  @keyframes cat-eye-color {
      50% {
-         fill: #fffdb2;
+         fill:red;
      }
  }
  @keyframes hide {
